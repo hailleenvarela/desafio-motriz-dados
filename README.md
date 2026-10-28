@@ -76,15 +76,5 @@ Os três CSVs mantêm a ordem e os nomes das colunas obrigatórias do enunciado.
 - O pipeline precisa ser executado novamente do início ao fim após substituir qualquer fonte; não considere outputs antigos como finais.
 - O BigQuery Sandbox tem limites próprios de armazenamento/consulta; o projeto não depende de serviços pagos.
 
-## Privacidade e credenciais
-
-- Não versionar chaves, senhas, arquivos de conta de serviço nem dados brutos pessoais.
-- A autenticação no BigQuery é feita pela sessão autorizada do Colab; nenhuma chave de serviço é embutida no notebook.
-- O telefone/responsável da Rede B não é propagado para Silver/Gold.
-- Os dados são tratados como fictícios, mas a solução segue minimização de dados.
-
-## Uso de ferramentas de IA
-
-Ferramentas de IA foram utilizadas como apoio para revisar a estrutura dos notebooks, implementar validações, documentar decisões e comparar o pipeline com o enunciado. A pessoa candidata deve revisar o código, executar os notebooks e conseguir explicar as decisões técnicas e limitações na entrevista.
 
 
